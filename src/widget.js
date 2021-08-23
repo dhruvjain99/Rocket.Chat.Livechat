@@ -128,6 +128,7 @@ const createWidget = (url) => {
 	iframe.style.height = '100%';
 	iframe.style.border = 'none';
 	iframe.style.backgroundColor = 'transparent';
+	iframe.allow='camera;microphone';
 
 	container.appendChild(iframe);
 	widget.appendChild(container);

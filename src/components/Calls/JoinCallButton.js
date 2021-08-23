@@ -34,7 +34,7 @@ export const JoinCallButton = (props) => {
 					</div>
 					{I18n.t('Join my room to start the video call')}
 				</div>
-				<Button onClick={clickJoinCall} className={createClassName(styles, 'joinCall__content-action')}> <VideoIcon width={20} height={20} /> {I18n.t('Join Call')} </Button>
+				<Button onClick={clickJoinCall} className={createClassName(styles, 'joinCall__content-action')}> {I18n.t('Join Call')} </Button>
 	    </div> : null } </div>
 	);
 };

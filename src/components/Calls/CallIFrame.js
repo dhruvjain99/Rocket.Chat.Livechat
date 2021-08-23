@@ -22,7 +22,7 @@ export const CallIframe = () => {
 	};
 	return (
 		<div className={createClassName(styles, 'call-iframe')}>
-			<iframe className={createClassName(styles, 'call-iframe__content')} allow='camera;microphone' src={url} />
+			<iframe className={createClassName(styles, 'call-iframe__content')} style={{border: 'none'}} allow='camera;microphone' src={url} />
 		</div>
 	);
 };
